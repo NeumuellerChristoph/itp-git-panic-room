@@ -52,3 +52,5 @@
 ## Verbesserungsvorschläge von Adnan Muzaverovic
 - rename varaiblae -> Rename variable xy to ab and xy to ab => super beschreiben aber wenn man mehr als 5 variablen ändert wird die commit message etwas lange
 
+## Regeln für das ITP Proj.
+- Min 5 Leerzeichen enthalten oder unterstriche
