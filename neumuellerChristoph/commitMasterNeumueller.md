@@ -46,5 +46,9 @@
     - auch hohes fehlerpotential doch bei gleinem Code vielleicht noch nachvolliebar
     - "Improve Performance by using bubble Sort insite XY-Function" genauere beschreibung
 
-## Verbe
+## Verbesserungsvorschläge von Tobias Holz
+- update -> updated login window => präzisere Beschreibung aber unter update kann man sich immer noch nix wirklich vorstellen
+
+## Verbesserungsvorschläge von Adnan Muzaverovic
+- rename varaiblae -> Rename variable xy to ab and xy to ab => super beschreiben aber wenn man mehr als 5 variablen ändert wird die commit message etwas lange
 
