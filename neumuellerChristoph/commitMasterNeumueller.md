@@ -23,6 +23,15 @@
 - Improve readability       => Good
 
 
+## Good Bad Beschreibung
+- Refactor Calculator for readability
+    - Good, weil tat, ort und Grund enthalten
+- Changes in App 
+    - Schlecht, absolut keine Ahnung welche changes und wo in der App ,viel zu grobe Begriffe
+- Add null check
+    - Nicht Perfekt (man weiß nicht wo der null check hinzugefügt wurde) aber bei kleinem calc code verständlich 
+
+
 ## Grenzfälle
 - final version
     - final version von was? Theoretisch bei so einem kleinen code aber noch nachvollziebar
@@ -36,5 +45,6 @@
 - Improve performance
     - auch hohes fehlerpotential doch bei gleinem Code vielleicht noch nachvolliebar
     - "Improve Performance by using bubble Sort insite XY-Function" genauere beschreibung
-    
+
+## Verbe
 
