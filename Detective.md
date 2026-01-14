@@ -16,21 +16,32 @@ Ausgearbeitet von: <<<- Bitte hier deinen Namen einfügen.>>>
 ## #1 -  Überblick über die Git-History
 Welche 2 Commits fallen euch in der History bereits zu Beginn negativ auf? Und warum? 
 
+ - Messages wie „stuff“ oder „update“ sind blöd, zu kurz & geben zu  wenig info aus
 
 ## #2 - Ab welchem Commit ist das Projekt nicht mehr stabil?
 Woran erkennt ihr, dass es ab hier ein Problem gibt?
 Mit welche(n) Befehl(en) könnt ihr das herausfinden?
 (Antwort: Commit-ID, Message, Begründung)
 
+- "git show 50da5b1caf09339b68ce5d4ace7368a7b99f013e" 
+-  // BUG: falscher Divisor -> Division durch 0
+   return a / 0;
+
 ## #3 - Welche Datei wurde dabei verändert?
 Welche Datei(en) wurden im verdächtigen Commit verändert?
 Mit welche(n) Befehlen könnt ihr das herausfinden?
 (Antwort: Commit-ID, geänderte Datei(en), Kurzbeschreibung der Änderung)
 
+- "git show 50da5b1caf09339b68ce5d4ace7368a7b99f013e"
+- CalculatorText.java wurde verschoben / renamed und Calculator.java
+
 ## #4 - Wer hat die entscheidende Stelle verändert?
 Welche Datei ist besonders relevant und warum?
 Mit welche(n) Befehlen kannst du dies rausfinden? 
 (Antwort: Datei, Commit-ID der relevanten Änderung, Commit Message, betroffene Code-Stelle, warum ist diese Stelle wichtig?)
+
+- Calculator.java ist die relevanteste Datei da dort hochkomplizierte logik umgesetzt wurde
+- 
 
 ## #5: Vergleich vor und nach der Änderung
 Was ist der Unterschied im Code, bevor und nachdem das Problem entstanden ist? Mit welchem Befehl kannst du das rausfinden? 
