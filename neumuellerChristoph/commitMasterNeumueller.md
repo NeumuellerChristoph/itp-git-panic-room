@@ -5,7 +5,7 @@
 - Fix bug                   => Schlecht
 - Add login validation      => Good
 - stuff                     => Schlecht
-- Refactor Calculator for readability       => Good
+- Refactor Calculator for readability     => Good
 - Changes in app            => Schlecht
 - Remove unused imports     => Good
 - final version             => Medium
