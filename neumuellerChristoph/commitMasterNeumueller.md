@@ -54,3 +54,5 @@
 
 ## Regeln für das ITP Proj.
 - Min 5 Leerzeichen enthalten oder unterstriche
+- englisch
+- 2W (Wo, warum)
