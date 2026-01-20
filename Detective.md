@@ -8,10 +8,7 @@ Ziel dieser Station ist es, das Repository zu **verstehen**, nicht es zu reparie
 
 Reparaturen folgen erst im **Panic Room** 🚨
 
-Ausgearbeitet von: <<<- Bitte hier deinen Namen einfügen.>>>
-
-
-
+Ausgearbeitet von: <<<-Neumueller Christoph>>>
 
 ## #1 -  Überblick über die Git-History
 Welche 2 Commits fallen euch in der History bereits zu Beginn negativ auf? Und warum? 
@@ -41,7 +38,13 @@ Mit welche(n) Befehlen kannst du dies rausfinden?
 (Antwort: Datei, Commit-ID der relevanten Änderung, Commit Message, betroffene Code-Stelle, warum ist diese Stelle wichtig?)
 
 - Calculator.java ist die relevanteste Datei da dort hochkomplizierte logik umgesetzt wurde
-- 
+- ID: "ce65066e660c049f1a7db9c2d5a7710044b460f2" => Division durch null hinzugefügt 
 
 ## #5: Vergleich vor und nach der Änderung
 Was ist der Unterschied im Code, bevor und nachdem das Problem entstanden ist? Mit welchem Befehl kannst du das rausfinden? 
+- git diff ce65066e660c049f1a7db9c2d5a7710044b460f2 50da5b1caf09339b68ce5d4ace7368a7b99f013e
+- Wurde hinzugefügt:
++    // BUG: falscher Divisor -> Division durch 0
++    return a / 0;
++}
++
